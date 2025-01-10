@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Fira Sans;
+}
+
+.banner_section {
+  position: static;
+  width: 100%px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.banner_content {
+  /* gap: 16px; */
+  /* margin-right: 30px; */
+  margin-left: 70px;
+  margin-right: 40px;
+  line-height: 45px;
+  width: 50%;
+}
+.banner_image {
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.btn {
+  color: white;
+  border-radius: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(0, 106, 80);
+  border-style: none;
+  position: static;
+  width: 270px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 34px 17px 34px;
+  flex: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: rgb(2, 154, 116);
+}
+
+.bd_2_0 {
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.vision_section {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: auto;
+}
+.vision_container {
+  display: flex;
+  gap: 10px;
+  width: auto;
+  /* margin-left: ; */
+}
+
+.vision_card {
+  /* width: 30%; */
+  border-radius: 16px;
+  gap: 24;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  /* background: rgb(198, 228, 214); */
+}
+
+.card_text {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision_card:hover {
+  cursor: pointer;
+  background: rgba(35, 80, 158, 0.2);
+}
+
+.learnmore_btn {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+.lorem_container {
+  width: auto;
+  background-color: aqua;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+
+.lorem_section {
+  background-image: url("assets/quote-bg.png");
+  width: auto;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  text-align: left;
+  /* padding: 30px; */
+  /* margin-left: 30px;
+  margin-right: 100px;
+  margin-top: 80px; */
+  /* border: 1px solid rgba(14, 14, 14, 0.1); */
+}
+
+.lorem_text {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  /* padding: 20px; */
+}
+
+.people {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
