@@ -92,9 +92,9 @@
 }
 
 .vision_card:hover {
-  cursor: pointer;
-  background: rgba(35, 80, 158, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 
 .learnmore_btn {
   width: 122px;
@@ -112,6 +112,7 @@
 
 .lorem_container {
   width: auto;
+  height: 250px;
   background-color: aqua;
   padding-left: 20px;
   padding-right: 20px;
@@ -199,7 +200,7 @@
 }
 
 .donate_section {
-  height: 450px;
+  height: 490px;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 80px;
@@ -266,7 +267,7 @@
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin-top: 33px ;
+  margin-top: 33px;
   margin-left: 505px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.1);
@@ -277,5 +278,53 @@
 .donate_btn:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subcriber_section {
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 24px;
+  width: auto;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+
+.subscription-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.sbcrb {
+  width: 600px;
+  height: 55px;
+  padding-left: 30px;
+  border-radius: 8px 0 0 8px; 
+  border: 1px solid #ccc; 
+  outline: none;
+}
+
+.scrb_btn {
+  width: 150px;
+  height: 55px;
+  padding: 0 30px; 
+  background: rgb(0, 106, 80);
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 0 8px 8px 0; 
+  cursor: pointer;
+  outline: none;
+}
+
+.scrb_btn:hover {
+  background: rgb(2, 154, 116);
 }
 
